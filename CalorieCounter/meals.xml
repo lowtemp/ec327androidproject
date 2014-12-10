@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Calories Left"
+        android:id="@+id/textView3"
+        android:background="#FF000000"
+        android:textColor="#ff00fdff" />
+
+    <android.inputmethodservice.ExtractEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ExtractEditText"
+        android:id="@+id/extractEditText2"
+        android:background="#ff000000"
+        android:autoText="false"
+        android:textColor="#ff00fdff" />
+
+    <android.inputmethodservice.ExtractEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ExtractEditText"
+        android:id="@+id/extractEditText3"
+        android:background="#FF000000"
+        android:textColor="#ff00fdff" />
+
+    <android.inputmethodservice.ExtractEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ExtractEditText"
+        android:id="@+id/extractEditText4"
+        android:background="#FF000000"
+        android:textColor="#ff00fdff" />
+
+    <android.inputmethodservice.ExtractEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ExtractEditText"
+        android:id="@+id/extractEditText5"
+        android:background="#FF000000"
+        android:textColor="#ff00fdff" />
+
+    <android.inputmethodservice.ExtractEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ExtractEditText"
+        android:id="@+id/extractEditText6"
+        android:background="#FF000000"
+        android:textColor="#ff00fdff" />
+
+    <android.inputmethodservice.ExtractEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ExtractEditText"
+        android:id="@+id/extractEditText7"
+        android:background="#FF000000"
+        android:textColor="#ff00fdff" />
+
+    <android.inputmethodservice.ExtractEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ExtractEditText"
+        android:id="@+id/extractEditText8"
+        android:background="#FF000000"
+        android:textColor="#ff00fdff" />
+
+    <android.inputmethodservice.ExtractEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ExtractEditText"
+        android:id="@+id/extractEditText9"
+        android:background="#FF000000"
+        android:textColor="#ff00fdff" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Info"
+        android:id="@+id/checkBox2"
+        android:textColor="#ff00fdff"
+        android:background="#ff1f1f1f"
+        android:checked="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:text="Calculate"
+        android:id="@+id/button3"
+        android:background="#ff000000"
+        android:textColor="#ff00fdff" />
+
+    <ImageButton
+        android:layout_width="73dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3"
+        android:layout_gravity="right"
+        android:src="@drawable/save"
+        android:background="#ff000000"
+        android:layout_weight="0.08" />
+
+</LinearLayout>

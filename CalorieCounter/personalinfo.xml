@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000"
+    android:weightSum="1"
+    android:id="@+id/">
+
+
+    <ImageButton
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton6"
+        android:layout_gravity="right"
+        android:src="@drawable/help_logo"
+        android:background="#ff000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Calories you should eat today: 0.0"
+        android:id="@+id/textView10"
+        android:textColor="#ff00fdff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Age"
+        android:id="@+id/textView2"
+        android:background="#ff000000"
+        android:textColor="#ff00fdff" />
+
+    <android.inputmethodservice.ExtractEditText
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:text="(Age)"
+        android:id="@+id/extractEditText"
+        android:textColor="#ff000000"
+        android:background="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Height"
+        android:id="@+id/textView"
+        android:textColor="#ff00fdff" />
+
+
+
+    <android.inputmethodservice.ExtractEditText
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:text="(Height)"
+        android:id="@+id/extractEditText"
+        android:textColor="#ff000000"
+        android:background="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Weight"
+        android:id="@+id/textView"
+        android:textColor="#ff00fdff" />
+
+    <android.inputmethodservice.ExtractEditText
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:text="(Weight)"
+        android:id="@+id/extractEditText"
+        android:textColor="#ff000000"
+        android:background="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Age"
+        android:id="@+id/textView"
+        android:textColor="#ff00fdff" />
+
+    <android.inputmethodservice.ExtractEditText
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:text="(Age)"
+        android:id="@+id/extractEditText"
+        android:textColor="#ff000000"
+        android:background="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Caloric Intake (Daily)"
+        android:id="@+id/textView"
+        android:textColor="#ff00fdff" />
+
+    <android.inputmethodservice.ExtractEditText
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:text="(Intake)"
+        android:id="@+id/extractEditText"
+        android:textColor="#ff000000"
+        android:background="#ffffffff"
+        android:clickable="false" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="Exercise Level"
+        android:id="@+id/seekBar"
+        android:max="5"
+        android:background="#ff1f1f1f" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView8"
+        android:layout_weight="0.07" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Choose activity level"
+        android:id="@+id/textView6"
+        android:textColor="#ff00fdff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:text="Calculate"
+        android:id="@+id/button"
+        android:textColor="#ff00fdff"
+        android:background="#ff000000" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Info"
+        android:id="@+id/checkBox"
+        android:textColor="#ff00fdff"
+        android:background="#ff1f1f1f"
+        android:checked="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:text="Exit"
+        android:id="@+id/button2"
+        android:background="#ff000000"
+        android:textColor="#ff00fdff"
+        android:layout_weight="0.21"
+        android:layout_gravity="right" />
+
+</LinearLayout>

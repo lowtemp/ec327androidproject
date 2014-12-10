@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Help"
+        android:id="@+id/textView4"
+        android:textColor="#ff00fdff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Hello! Welcome to CalorieCounter. Here\&apos;s how to use our app. First Enter your personal information in the Information page. Click save to update your information. Next, go to Food Entry. Every day, enter your daily meals and the calories in the foods you eat. CalorieCounter will then show you the remaining calories available for the day. Enjoy! You&apos;re beautiful no matter what. Professor Densmore is the best guy in the entire world."
+        android:id="@+id/textView11"
+        android:textColor="#ff00fdff"
+        android:background="#ff000000" />
+</LinearLayout>
